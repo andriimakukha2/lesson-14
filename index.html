@@ -13,32 +13,38 @@
 </head>
 <body>
 <header>
-  <nav>
-    <ul class="menu">
-      <li>
-        <a href="#">Головна</a>
-      </li>
-      <li>
-        <a href="#">Зображення</a>
-        <ul class="submenu">
-          <li><a href="#">Фотографії</a></li>
-          <li><a href="#">Вектори</a></li>
-          <li><a href="#">Ілюстрації</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">Інструменти</a>
-        <ul class="submenu">
-          <li><a href="#">ШІ-генератор зображень</a></li>
-          <li><a href="#">Редактор VistaCreate</a></li>
-          <li><a href="#">Конструктор логотипів</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#inputEmail4">Увійти</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="#">Головна</a>
+            </li>
+            <li>
+              <a href="#">Зображення</a>
+              <ul class="submenu">
+                <li><a href="#">Фотографії</a></li>
+                <li><a href="#">Вектори</a></li>
+                <li><a href="#">Ілюстрації</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Інструменти</a>
+              <ul class="submenu">
+                <li><a href="#">ШІ-генератор зображень</a></li>
+                <li><a href="#">Редактор VistaCreate</a></li>
+                <li><a href="#">Конструктор логотипів</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#inputEmail4">Увійти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
 </header>
 <main class="main">
   <div class="container text-center">
@@ -52,6 +58,10 @@
                     aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -62,6 +72,12 @@
             </div>
             <div class="carousel-item">
               <img src="img/photo3.jpg" class="d-block w-100" alt="photo3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/photo4.jpg" class="d-block w-100" alt="photo4">
+            </div>
+            <div class="carousel-item">
+              <img src="img/photo5.jpg" class="d-block w-100" alt="photo5">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
